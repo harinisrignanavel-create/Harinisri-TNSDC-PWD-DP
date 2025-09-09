@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #0d1117; /* Black */
+      color: #f0f6fc;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0a192f; /* Dark Blue */
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #64ffda; /* Neon Green for highlight */
+    }
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit:cover;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ccd6f6;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #64ffda;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #64ffda;
+      margin-bottom: 20px;
+    }
+
+    .skills-list, .education-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills-list li, .education-list li {
+      background: #112240;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact input, .contact textarea {
+      margin: 10px 0;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background: #1c2b48;
+      color: white;
+    }
+
+    .contact button {
+      background: #64ffda;
+      color: #0a192f;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact button:hover {
+      background: #52e0c4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a192f;
+      color: #8892b0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <img src=" https://i.supaimg.com/7027abab-7bb2-4f40-b362-a2c0938d8f17.jpg">
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Harinisri, BCA Student </p>
+    <p>i have basic knowledge of C,C++,Python</p>
+    <p>Welcome to my portfolio</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>C</li>
+      <li>C++</li>
+      <li>Python</li>
+      
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="education-list">
+      <li><strong>Bachelor of Computer Application</strong> Government arts college </li>
+      <li><strong>High Secondary School</strong> - GGHSS 2022-2024</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>harinisrignanavel@gmail.com</p>
+    <p>Chidambaram, Cuddalore district</p>
+    <p>TamilNadu</p>
+  </section>
+
+  <footer>
+    <p>Thanks for visiting my portfolio </p>
+  </footer>
+</body>
+</html>
